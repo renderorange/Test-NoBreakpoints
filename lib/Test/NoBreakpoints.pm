@@ -1,4 +1,6 @@
-# ABSTRACT: test that files do not contain soft breakpoints
+=head1 NAME
+
+Test::NoBreakpoints - test that files do not contain soft breakpoints
 
 =head1 SYNOPSIS
 
@@ -38,6 +40,8 @@ use Test::Builder;
 
 require Exporter;
 use vars qw($VERSION @ISA @EXPORT @EXPORT_OK %EXPORT_TAGS);
+
+$VERSION = '0.15';
 
 @ISA       = 'Exporter';
 @EXPORT    = qw|
@@ -292,5 +296,30 @@ regular expressions, so this is probably the direction I'm going to head in.
 L<Test::Builder>
 
 L<Test::Pod>
+
+=head1 AUTHORS
+
+=over 4
+
+=item *
+
+James FitzGibbon <jfitz@cpan.org>
+
+=item *
+
+Apocalypse <APOCAL@cpan.org>
+
+=item *
+
+Chisel <chisel@chizography.net>
+
+=back
+
+=head1 COPYRIGHT AND LICENSE
+
+This software is copyright (c) 2012 by James FitzGibbon and Chisel Wright.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
 
 =cut
