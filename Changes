@@ -1,5 +1,9 @@
 Revision history for Test-NoBreakpoints
 
+0.17 2021-02-23
+     - Remove Test::Exception and fix test plan increment
+     - Fix Changes file layout
+
 0.16 2021-02-23
      - Convert build to ExtUtils::MakeMaker
 
